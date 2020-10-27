@@ -42,6 +42,6 @@ A one shot trial is comparing an image of one character with all the other chara
 ## Hierachy of Omniglot Dataset
 ### images_Background ---> Alphabets ---> Characters ---> Images of various drawers
 
-# PS I did not train as I my PC do not have enough capability to run this.
-If you have any doubts contact me : vikramreddy0307@gmial.com
+#### PS:- I did not train as I my PC do not have enough capability to run this.
+If you have any doubts contact me : vikramreddy0307@gmail.com
                                       
