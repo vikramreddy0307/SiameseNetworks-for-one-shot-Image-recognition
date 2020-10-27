@@ -35,7 +35,7 @@ The trained model can then be used to evaluate new images, exactly one per novel
 A similar procedure is applied on MNIST, generating 400 one-shot trials on the MNIST test set, but excluding any fine-tuning on the training set. All 28×28 images were upsampled to 35×35, then given to a reduced version of our model trained on 35×35 images from Omniglot which were downsampled by a factor of 3.
 
 
-## Important things to note before seeing the code
+## Important things to note before running/going thorough the code
 In One-shot dataloader I have used batch-size of 1 as my code will be return two lists of images in single iteration. Each image in single list is compared with all the images in other list.
 A one shot trial is comparing an image of one character with all the other characters in the second list(The characters in second list may or may not be from same alphabet)
 
