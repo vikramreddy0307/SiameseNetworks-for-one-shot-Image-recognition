@@ -36,8 +36,8 @@ A similar procedure is applied on MNIST, generating 400 one-shot trials on the M
 
 
 ## Important things to note before running/going thorough the code
-In One-shot dataloader I have used batch-size of 1 as my code will be return two lists of images in single iteration. Each image in single list is compared with all the images in other list.
-A one shot trial is comparing an image of one character with all the other characters in the second list(The characters in second list may or may not be from same alphabet)
+1. In One-shot dataloader I have used batch-size of 1 as my code will be return two lists of images in single iteration. Each image in single list is compared with all the images in other list.
+2. A one shot trial is comparing an image of one character with all the other characters in the second list(The characters in second list may or may not be from same alphabet)
 
 ## Hierachy of Omniglot Dataset
 ### images_Background ---> Alphabets ---> Characters ---> Images of various drawers
